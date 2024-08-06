@@ -1,0 +1,212 @@
+
+  .table{
+    float: "right";
+     width: "80%";
+  }
+
+ 
+  .thead {
+  
+    top: -258px;
+    left: -461px;
+    width: 1248px;
+    height: 53px;
+    background-color: #CDCDF8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .col-sm-10{
+    align-content: end;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 11%;
+    margin-top: 2px;
+    margin-left: 15%;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 55%;
+    margin-top: 1px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }}
+
+
+    .submit {
+      float: center;
+      width: 10%;
+      height: 60px; /* Set the height of the button to 50 pixels */
+      margin-top: 1px;
+      margin-left: 42%;
+      margin-right:20%;
+      margin-bottom: 1%;
+      text-align: center;
+      padding: 8px 15px; /* Adjust the padding to increase the size of the button */
+      font-size: 1.2em;
+      
+    }
+    .submit2 {
+      border-radius: 10%;
+      float: center;
+      width: 10%;
+      height: 60px; /* Set the height of the button to 50 pixels */
+      margin-top: 1px;
+      margin-left: 29%;
+      margin-right:20%;
+      margin-bottom: 1%;
+      text-align: center;
+      padding: 8px 15px; /* Adjust the padding to increase the size of the button */
+      font-size: 1.2em;
+    }
+
+
+
+
+    .viewform
+    {
+      border-radius: 3%;
+      float: center;
+      width: 90%;
+      height: 58%;
+      margin-top: 5px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 0%;
+      text-align: center;
+
+      background-color: #FFFFFF;
+
+    }
+    .viewform2
+    {
+      border-radius: 3%;
+      float: center;
+      width: 40%;
+      height: 20%;
+      margin-top: 1px;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-bottom: 0%;
+      text-align: center;
+      background-color: #FFFFFF;
+
+    }
+
+    .list{
+      border-radius: 10px;
+      background-color: #f2f2f2;
+      padding: 1px;
+      width: 81%;
+      float: right;
+      margin-top: 2%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 0%;
+    }
+    .th{
+      width:auto;
+      border-top-right-radius: 20%;
+      background-color: #CDCDF8;
+    }
+    .tb{
+      border: #0c1310;
+      border: 10%;
+    }
+    .brandLogo {
+      width: 180px;
+      height: auto;
+    }
+    .idNo{
+      width: 10%;
+    }
+    .bt1{
+
+      border-radius: 5%;
+      background-color: green; /* Green background color */
+      border: none; /* Remove button border */
+      color: white; /* Text color */
+      padding: 12px 30px; /* Padding around button text */
+      text-align: center; /* Center button text */
+      text-decoration: none; /* Remove underline */
+      display: inline-block; /* Display as inline block element */
+      font-size: 11px; /* Set font size */
+      /* margin: 4px 2px;  */
+      margin-left: 62%;
+      cursor: pointer; /* Add hover effect */
+
+    }
+    .bt2 {
+      border-radius: 5%;
+      background-color: #ca4d4d; /* Green background color */
+      border: none; /* Remove button border */
+      color: white; /* Text color */
+      padding:  12px 30px;  /* Padding around button text */
+      text-align: center; /* Center button text */
+      text-decoration: none; /* Remove underline */
+      display: inline-block; /* Display as inline block element */
+      font-size: 11px; /* Set font size */
+      /* margin: 4px 2px;  */
+      cursor: pointer; /* Add hover effect */
+    }
+    .canclebtn{
+      align-items: right;
+    }
+    
+
+    
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+

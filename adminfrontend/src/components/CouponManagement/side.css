@@ -1,0 +1,11 @@
+/* Default styles for menu items */
+.menu-item {
+    color: #333; /* Default font color */
+    text-decoration: none; /* Remove underlines on links */
+  }
+  
+  /* Styles for menu items on hover */
+  .menu-item:hover {
+    background-color: gold; /* Background color on hover */
+    color: darkgreen; /* Font color on hover */
+  }
